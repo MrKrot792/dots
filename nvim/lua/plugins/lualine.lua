@@ -6,9 +6,9 @@ return {
     "nvim-lualine/lualine.nvim",
     config = function()
         require("lualine").setup({
-            options = {
-                theme = "catppuccin",
-            },
+            -- options = {
+            --     theme = "catppuccin",
+            -- },
             sections = {
                 lualine_z = { 'location', time },
             }

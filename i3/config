@@ -224,3 +224,7 @@ bindsym $mod+Shift+x exec betterlockscreen -l
 
 bindsym $mod+Shift+t exec ~/Documents/programming/scripts/take_screenshot.sh f
 bindsym $mod+Shift+s exec ~/Documents/programming/scripts/take_screenshot.sh r
+
+bindsym $mod+Shift+m exec ~/Documents/programming/scripts/reboot_wifi.sh
+
+#bindsym $mod+Shift+o exec xzoom # TODO Idk, fix it, i guess
